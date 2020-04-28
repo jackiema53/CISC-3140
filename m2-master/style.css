@@ -3,3 +3,9 @@
  * 2. The font is a monospaced font
  * (all other design decisions are up to you)
  */
+ input[type=text] {
+    border: none;
+    border-bottom: 2px solid black;
+    font-family: monospace;
+    
+  }
