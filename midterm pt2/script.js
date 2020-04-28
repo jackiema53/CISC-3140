@@ -21,8 +21,18 @@ var keyPressed;
 
 
   // TODO: Add a condition to ignore entries beyond 10 digits
-
+ if (!isNumeric(x) || y.length > 11) {
+  event.preventDefault();
 }
+
+
+ document.getElementById("phone").value = y;
+}
+
+function isNumeric(key) {
+  return key >= 0 && key <= 9;
+}
+
 
 function formatPhoneNumber(value){
 
