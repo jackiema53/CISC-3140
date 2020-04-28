@@ -3,7 +3,7 @@
 function myKeyPress(e){
 
   /* TODO: retrieve the value from the text input */
-  var mytextbox = "my textbox element";
+ var myphone = document.getElementById("phone").value;
 
 
   // TODO: set the value of the textbox with the formatted value
