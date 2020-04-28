@@ -8,19 +8,15 @@ function myKeyPress(e){
 
   // TODO: set the value of the textbox with the formatted value
 
-  var keyPressed;
-  if(window.event) { // IE
-    keyPressed = e.keyCode;
-  } else if(e.which){ // Netscape/Firefox/Opera
-    keyPressed = e.which;
-  }
+var keyPressed;
+ if(window.event) { // IE
+   keyPressed = e.keyCode;
+ } else if(e.which){ // Netscape/Firefox/Opera
+   keyPressed = e.which;
+ }
 
-  var x = String.fromCharCode(keyPressed);
-  var y = formatPhoneNumber("7189515000");
-
-
-  console.log("Key Pressed = " + x);
-  console.log("  Formatted = " + y);
+ var x = String.fromCharCode(keyPressed);
+ var y = formatPhoneNumber(myphone);
 
 
 
